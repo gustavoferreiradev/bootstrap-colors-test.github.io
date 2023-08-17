@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Containers com Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Containers Bootstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#cards">Cards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://getbootstrap.com" target="_blank" rel="noopener">Bootstrap</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.w3.org/" target="_blank" rel="noopener">W3C</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  
+    <header class="container-fluid">
+        <h1 class="h1">Containers Bootstrap</h1>
+    </header>
+
+<section class="m-5 container" id="cards">
+    <div class="row justify-content-start">
+        <div class="col-sm-12 col-md-4 col-xl-4 mb-3">
+            <div class="card text-primary bg-primary-subtle border border-primary-subtle rounded-3">
+                <div class="card-body">
+                  <h3 class="card-title">Card 1</h3>
+                  <p class="text-primary-emphasis">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-4 mb-3">
+            <div class="card text-warning bg-warning-subtle border border-warning-subtle rounded-3">
+                <div class="card-body">
+                  <h3 class="card-title text-warning">Card 2</h3>
+                  <p class="card-warning-emphasis">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-4 mb-3">
+            <div class="card text-success bg-success-subtle border border-success-subtle rounded-3">
+                <div class="card-body">
+                  <h3 class="card-title text-success">Card 3</h3>
+                  <p class="card-success-emphasis">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-4 mb-3">
+            <div class="card text-danger bg-danger-subtle border border-danger-subtle rounded-3">
+                <div class="card-body">
+                  <h3 class="card-title">Card 4</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-4 mb-3">
+            <div class="card text-info bg-info-subtle border border-info-subtle rounded-3">
+                <div class="card-body">
+                  <h3 class="card-title">Card 5</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-xl-4 mb-3">
+            <div class="card text-secondary bg-secondary-subtle border border-secondary-subtle rounded-3">
+                <div class="card-body">
+                  <h3 class="card-title">Card 6</h3>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</section>
+<footer class="container-fluid">
+  <span class="text-secondary">Copyright ©2023 <a href="https://www.gustavoferreira.dev" target="_blank">Gustavo Ferreira</a></span>
+</footer>
+</body>
+</html>
